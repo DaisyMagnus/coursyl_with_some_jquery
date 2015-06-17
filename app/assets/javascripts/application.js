@@ -28,12 +28,12 @@ function hideDeletedElement() {
 }
 
 function hideAddElement() {
-  lastLink = document.getElementById('last-button');
+  lastLink = $('last-button');
   lastLink.parentElement.parentElement.hidden = true;
 }
 
 function showAddElement() {
-  lastLink = document.getElementById('last-button');
+  lastLink = $('last-button');
   lastLink.parentElement.parentElement.hidden = false;
 }
 
